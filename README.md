@@ -3,10 +3,11 @@
 
 ![](giffilmes.gif)
 
-## Responsividade
+## Responsividade 💻📱
 
 ![](responsigif.gif)
 
+## Info 💾📄
 
 - Portal conta com área de avaliações, lançamentos, making of e mais.
 - Display utilizado: flex e bootstrap grid.
