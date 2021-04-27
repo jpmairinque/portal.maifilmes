@@ -3,9 +3,9 @@
 
 ![](giffilmes.gif)
 
-- Ao clicar no botão "Let's go!", um form de Sign Up surge na tela. Codado em JS Vanilla.
-- Display utilizado: flex
+- Portal conta com área de avaliações, lançamentos, making of e mais.
+- Display utilizado: flex e bootstrap grid.
 - Fonte utilizada: Poppins
 - Paleta de cores utilizada (importada do colorsinspo):
 
-![](discozipage/colorpallete.png)
+![](paletacores.png)
