@@ -1,11 +1,11 @@
 # Portal de Filmes responsivo (MaiFilmes) 🎭🎊🎃
 ## Página web construída para projeto da faculdade
 
-![](giffilmes.gif)
+![](readmefiles/giffilmes.gif)
 
 ## Responsividade 💻📱
 
-![](responsigif.gif)
+![](readmefiles/responsigif.gif)
 
 ## Info 💾📄
 
@@ -14,4 +14,4 @@
 - Fonte utilizada: Poppins
 - Paleta de cores utilizada (importada do colorsinspo):
 
-![](paletacores.png)
+![](readmefiles/paletacores.png)
