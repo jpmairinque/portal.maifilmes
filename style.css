@@ -1,8 +1,19 @@
+/* IMPORTAÇÃO API DO GOOGLE FONTS */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/* HEADER E BOX DE LANÇAMENTOS */
 
 body {
   background-color: #0e153a;
   font-family: Poppins;
+}
+
+.logo {
+  width: 150px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 0.5rem;
 }
 
 .header {
@@ -37,6 +48,17 @@ body {
   max-width: 80%;
 }
 
+.main {
+  margin: 0 auto;
+  background-color: #364f6b;
+  width: 90%;
+  padding: 3rem;
+  color: #e2f3f5;
+  margin-top: 20px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 1px #3d5bf1b2;
+}
+
 .searchbar {
   background-color: #364f6b;
   color: white;
@@ -55,6 +77,12 @@ body {
   transform: scale(1.2);
 }
 
+.header_area {
+  padding: 20px;
+}
+
+/* FORMATAÇÃO DOS VÍDEOS */
+
 .video {
   max-width: 100%;
   width: 100%;
@@ -68,21 +96,17 @@ body {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 300px;
   border-radius: 20px;
-  /* border:solid #3d5bf1b2; */
   border: none;
   margin: 2rem;
 }
+
+/* SPANS DE TEXTO */
+
 .span {
   font-weight: 700;
 }
 .span2 {
   font-weight: 600;
-}
-.logo {
-  width: 150px;
-  padding: 20px;
-  margin-left: 20px;
-  margin-bottom: 0.5rem;
 }
 
 .highlight {
@@ -99,36 +123,11 @@ body {
   background-color: #3d5af1;
 }
 
-.main {
-  margin: 0 auto;
-  background-color: #364f6b;
-  width: 90%;
-  padding: 3rem;
-  color: #e2f3f5;
-  margin-top: 20px;
-  border-radius: 50px;
-  box-shadow: 2px 2px 2px 1px #3d5bf1b2;
-}
-
-.footer {
-  background-color: #3d5bf1b2;
-  margin-top: 20px;
-}
-
-.header_area {
-  padding: 20px;
-}
-
-.footer_area {
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
+/* PAGE MIDDLE (DESTAQUES, AVALIAÇÕES, MAKING OF) */
 
 .lancamentos {
   text-align: center;
   color: #e2f3f5;
-
   margin-bottom: 5rem;
 }
 
@@ -188,7 +187,6 @@ body {
   align-items: center;
   align-content: center;
   justify-content: space-between;
-
   padding-top: 4rem;
   padding-right: 3rem;
   padding-left: 3rem;
@@ -207,11 +205,8 @@ body {
   padding-left: 3rem;
   text-align: center;
 }
-.materia {
-  display: flex;
-  color: #e2f3f5;
-  margin-bottom: 3rem;
-}
+
+/* BOTÕES */
 
 .button {
   padding: 10px;
@@ -235,6 +230,8 @@ body {
   transform: scale(1.05);
 }
 
+/* PAGE BOTTOM (MATÉRIAS, SOCIAL MEDIA, SOBRE)*/
+
 .cardav img {
   border-radius: 100%;
   margin-right: 50px;
@@ -255,6 +252,12 @@ body {
   color: #e2f3f5;
   display: flex;
   margin: 50px;
+}
+
+.materia {
+  display: flex;
+  color: #e2f3f5;
+  margin-bottom: 3rem;
 }
 
 #categoria {
@@ -301,6 +304,21 @@ body {
   cursor: pointer;
 }
 
+/* FOOTER */
+
+.footer {
+  background-color: #3d5bf1b2;
+  margin-top: 20px;
+}
+
+.footer_area {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* RESPONSIVIDADE - IPAD */
+
 @media screen and (min-width: 601px) and (max-width: 1600px) {
   .cardav {
     display: flex;
@@ -315,6 +333,8 @@ body {
     text-align: center;
   }
 }
+
+/* RESPONSIVIDADE - IPHONE */
 
 @media screen and (max-width: 600px) {
   .navflex {
