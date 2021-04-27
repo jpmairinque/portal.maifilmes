@@ -3,6 +3,11 @@
 
 ![](giffilmes.gif)
 
+## Responsividade
+
+![](responsigif.gif)
+
+
 - Portal conta com área de avaliações, lançamentos, making of e mais.
 - Display utilizado: flex e bootstrap grid.
 - Fonte utilizada: Poppins
